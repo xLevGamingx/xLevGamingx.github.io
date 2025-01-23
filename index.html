@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lev Gaming</title>
@@ -10,7 +11,7 @@
             margin: 0;
             padding: 0;
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #0e1e4a, #4a0e1e);
+            background: linear-gradient(135deg, #0044ff, #000000);
             color: #fff;
             display: flex;
             justify-content: center;
@@ -91,6 +92,33 @@
             50% { transform: translateY(-20px); }
             100% { transform: translateY(0); }
         }
+        .btnStack {
+            font-family: Oswald;
+            background-color: rgb(38, 0, 255);
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.428571429;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+}
+
+        a.btnStack:hover {
+            background-color: #000;
+}
     </style>
 </head>
 <body>
@@ -101,6 +129,7 @@
         <div class="loader"></div>
         <div class="links">
             <p>👉 Join our Discord: <a href="https://discord.gg/2chH2HupCN" target="_blank">https://discord.gg/2chH2HupCN</a></p>
+            <a href="steam://connect/104.243.43.227:27015" class="btnStack">Zombie Escape CS2</a><a href="steam://connect/104.243.43.227:27016" class="btnStack">Football CS2</a>
         </div>
     </div>
     <footer>&copy; 2025 Lev Gaming. All rights reserved.</footer>
