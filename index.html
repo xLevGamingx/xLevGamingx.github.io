@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lev Gaming</title>
@@ -120,6 +119,18 @@
         a.btnStack:hover {
             background-color: #000;
 }
+
+.blue-button {
+  display: inline-block;
+  font-family: Whitney, "Open Sans", Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 11pt;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 45px;
+  width: 250px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
     </style>
 </head>
 <body>
@@ -128,7 +139,9 @@
         <h1>Lev Gaming</h1>
         <p>A Gaming Community With Unique Mods.</p>
         <div class="links">
-            <a href="https://discord.gg/2chH2HupCN"> <i class="fa-brands fa-discord fa-beat"></i></a>
+            <div class="wrapper-buttons">
+                <a href="https://discord.gg/2chH2HupCN"></a><button class="blue-button">Join Our Discord</button>
+              </div>
             <h2>Click on the server below to join</h2>
             <a href="steam://connect/104.243.43.227:27015" class="btnStack">Zombie Riot CS2</a>   <a href="steam://connect/104.243.43.227:27016" class="btnStack">Football CS2</a>
         </div>
